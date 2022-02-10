@@ -1,0 +1,34 @@
+#weather {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2em;
+}
+
+#iconClimate {
+    display: flex;
+    width: 30px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+#locale {
+    font-size: min(14px, 1.3vw);
+}
+
+#climateDegree {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    text-align: right;
+    width: 30%;
+}
+
+#degree {
+    display: flex;
+    align-items: center;
+    font-size: min(48px, 2.5vw);
+    padding-top: 5px;
+    font-weight: bold;
+    color: #222222;
+}

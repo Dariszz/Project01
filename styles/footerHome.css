@@ -1,0 +1,73 @@
+#footer {
+    display: grid;
+    position: relative;
+    grid-template-columns: 15.6% 28.6% 7.8% 5.5% 5% 23.5% 7% 7%;
+    background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
+    color: white;
+    height: 12%;
+}
+
+#p {
+    display: flex;
+    grid-column: 4;
+    align-items: center;
+    text-align: right;
+    padding-right: 20px;
+    font-size: min(10px, 0.9vw);
+}
+
+#textFooter {
+    display: flex;
+    grid-column: 2;
+    
+    text-align: right;
+    align-items: center;
+}
+
+#textFooter p {
+    font-size: min(7.5px, 0.8vw);
+}
+
+#empty {
+    position: absolute;
+    left: 47%;
+    align-self: center;
+    border-left: solid 1px white;
+    height: 50%;
+}
+
+#timerBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    grid-column: 5;
+}
+
+#timer {
+    font-size: min(35px, 2vw);
+    font-weight: bold;
+    height: 40%;
+}
+
+#seconds {
+    font-size: min(10px, 1vw);
+}
+
+#continue {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: min(12px, 1vw);
+    grid-column: 7;
+    background: white;
+    color: #C13216;
+}
+
+#logout {
+    grid-column: 8;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}

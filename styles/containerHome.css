@@ -1,0 +1,50 @@
+#container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 7%;
+    width: 100%;
+    height: 76%;
+}
+
+#ballLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: 100%;
+    width: 30%;
+    margin-bottom: -3em;
+}
+
+#ballLogoCompass {
+     min-width: 50vh;
+     max-width: 50vh;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    font-weight: bold;
+    height: 100%;
+    width: 65%;
+}
+
+#content h2 {
+    font-size: clamp(1rem, 2vw, 4rem);
+    height: 6%;
+    color: #C12D18;
+}
+
+#content h3 {
+    font-size: clamp(1rem, 3.5vw, 4rem);
+    height: 12.5%;
+    color: #C12D18;
+}
+
+#content p {
+    font-size: clamp(1rem, 1.3vw, 3rem);
+    color: #222222;
+}

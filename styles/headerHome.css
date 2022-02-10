@@ -1,0 +1,35 @@
+#cabecalho {
+    display: flex;
+    justify-content: space-between;
+    height: 12%;
+}
+
+#logoCompass {
+    margin: 1em;
+}
+
+#containerCabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#clockDate h1 {
+    padding-bottom: 5%;
+    background: red;
+    height: 1%;
+}
+
+#clock {
+    font-size: min(120px, 6.5vw );
+    margin-top: 2%;
+    color: #222222;
+}
+
+#date {
+    font-size: min(14px, 1.1vw);
+}
+
+#weather {
+    margin-right: 2%;
+}
