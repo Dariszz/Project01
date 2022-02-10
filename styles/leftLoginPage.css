@@ -1,0 +1,36 @@
+#leftSide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
+    color: #E0E0E0;
+    width: 50%;
+}
+
+#containerLogin {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 1;
+    width: 40%;
+    height: 50%;
+}
+
+#messageHello {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+}
+
+#messageHello h1 {
+    font-size: min(64px, 6.5vw);
+}
+
+#messageHello p {
+    margin-top: 4%;
+    font-size: min(16px, 2vw);
+}
