@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
     background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
     color: #E0E0E0;
     width: 50%;
@@ -10,12 +9,11 @@
 
 #containerLogin {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    flex-grow: 1;
     width: 40%;
-    height: 50%;
+    height: 100%;
 }
 
 #messageHello {

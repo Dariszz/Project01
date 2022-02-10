@@ -1,0 +1,130 @@
+/* @media(max-width : 2560px){
+    #messageHello h1 {
+        font-size: 128px;
+    }
+
+    #messageHello p {
+        font-size: 25px;
+    }
+
+    #formLogin h3 {
+        font-size: 64px;
+        margin-top: 10%;
+    }
+} */
+
+@media( max-width: 620px ) {
+
+    #loginPage {
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    
+    #rightSide {
+        width: 0;
+    }
+
+    #leftSide {
+        width: 100%;
+    }
+
+    #image1 {
+        position: relative;
+        right: 60%;
+        margin-left: 6%;
+    }
+
+    #containerLogin {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: flex-start;
+        align-self: flex-start;
+        width: 80%;
+        height: 90%;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+
+    #messageHello h1 {
+        font-size: 64px;
+    }
+
+    #messageHello p {
+        font-size: 15px;
+    }
+
+    #formLogin {
+        height: 62%;
+    }
+
+    #formLogin h3 {
+        font-size: 32px;
+        margin-top: 10%;
+    }
+
+    #messageError {
+        font-size: 16px;
+    }
+
+    #button {
+    height: 10%;
+    width: 100%;
+    background: linear-gradient(90deg, #FF2D04 0%, #C13216 100%);
+    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    border: 0;
+    }
+}
+
+@media (max-width: 320px) {
+    #messageHello h1 {
+        font-size: 48px;
+    }
+
+    #messageHello p {
+        font-size: 12px;
+    }
+
+    #formLogin h3 {
+        font-size: 24px;
+        margin-top: 10%;
+    }
+
+    #button {
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 1050px){
+    #ballLogoCompass {
+        min-width: 400px;
+        width: 400px;
+    }
+
+    #clock, #date, #weather, #content, #textFooter, #empty, #timerBox, #p {
+        display: none;
+    } 
+
+    #footer {
+        grid-template-columns: 25% 75%;
+    }
+
+    #logout {
+        position: absolute;
+        top: 0;
+        width: 25%;
+        height: 100%;
+        grid-column: 1;
+    }
+
+    #continue {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 16px;
+        grid-column: 2;
+    }
+}
