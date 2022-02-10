@@ -1,0 +1,12 @@
+@import url('./styles/reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('./styles/styleGlobal.css');
+@import url('./styles/loginPage.css');
+@import url('./styles/leftLoginPage.css');
+@import url('./styles/rightLoginPage.css');
+@import url('./styles/formLoginPage.css');
+@import url('./styles/homePage.css');
+@import url('./styles/headerHome.css');
+@import url('./styles/weatherHome.css');
+@import url('./styles/containerHome.css');
+@import url('./styles/footerHome.css');
