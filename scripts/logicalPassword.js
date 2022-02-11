@@ -16,8 +16,15 @@ export default function logicalPassword(){
             loginPage.style.display = 'none';
             homePage.style.display = 'flex';
             document.title = 'Compass - Home';
-
+            
             logicalTimer();
+
+            history.pushState(
+                null, 
+                'home', 
+                'https://dariszz.github.io/project01/home'
+            );
+
         } else {
             messageError.style.visibility = 'visible';
             userLogin.value = '';

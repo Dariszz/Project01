@@ -7,6 +7,11 @@ export default function logicalTimer() {
         timer.innerHTML = seconds;
         seconds --;
         if (!seconds) {
+            history.pushState(
+                null, 
+                'login', 
+                'https://dariszz.github.io/project01/'
+            );
             window.location.reload();
         }
     }, 1000);
