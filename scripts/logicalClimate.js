@@ -16,7 +16,7 @@ export default function logicalClimate() {
             addIconClimate = "./assets/icons/thunder.png";
         }else if (icons.includes('rain') || icons.includes('drizzle')) {
             addIconClimate = "./assets/icons/raining.png";
-        }else if (icons.includes('Fog') || icons.includes('Misty')) {
+        }else if (icons.includes('fog') || icons.includes('misty')) {
             addIconClimate = "./assets/icons/cloud.png";
         }else if (icons.includes('cloudy') || icons.includes('Overcast')) {
             addIconClimate = "./assets/icons/cloudy.png";
